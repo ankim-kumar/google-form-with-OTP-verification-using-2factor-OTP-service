@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	#inp{
+
+      display: block;
+	} 
+	#Mobi{
+
+	 display: block;
+
+	}
+    #verifyot{
+
+		display: none;
+
+
+	}
+	#otpdiv{
+
+		display: none;
+	}
+	#verifyotp{
+
+		display: none;
+	}
+	#resend_otp{
+		display: none;
+	}
+
+	.countdown{
+		display: table;
+		width: 100%;
+		text-align: left;
+		font-size: 15px;
+
+	}
+
+	#resend_otp:hover{
+
+		text-decoration:underline;
+	}
+
+.popup{
+ position:fixed;
+ top:8%;
+ right:30%; 
+width: 40%;
+height: 50%;
+display: block;
+margin: 8px;
+padding: 15px;
+ background: rgb(176, 247, 242);
+ background: rgb(198, 250, 247);
+
+}	
+
+.button3{
+	
+position:absolute;
+
+top:10px;
+right: 20px;
+background-color: #f44336;
+  border: none;
+  cursor: pointer;
+
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 5% ;
+  height:9%;
+  padding: 0%;
+  cursor: pointer;
+  } /* Red */ 
+
+
+.cur{
+
+font: size 80%;
+ color:#FFFFFF";
+
+}
+</style>
+</head>
+<body>
+
+</body>
+</html>

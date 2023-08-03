@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apply Now</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+   <!--  <link rel="stylesheet" href="popup.css">     -->
+</head>
+<body style= "position:absolute;">
+     <div class="container"> 
+
+		<!--html part start-->
+	<!--	<div class="container p-3 my-3">    -->
+		<!--	<div class="row">    -->
+			<!--	<div  class="col-6  p-4 ml-2">  -->
+					<h1 class="color:black; position:center" >Apply Now</h1>
+			<form action="https://sheetdb.io/api/v1/ngl8ti7t0hrmt" method="post" id="sheedb-form" name="google-sheet">
+			
+              <label for="Name"><b>Name<span style="font-size:18px; color:#FF0000">*</span><br><br></b></label>
+              <input type="text" placeholder="Name" name="data[Name]" required><br><br>
+  		
+			  <label for="mobile"><b>Enter Mobile Number<span style="font-size:18px; color:#FF0000">*</span><br><br></b></label>
+              <input type="text" placeholder="Mobile" name="data[Mobile No.]" required><br><br>
+
+              <label for="Business"><b>Existing Business<span style="font-size:18px; color:#FF0000" >*</span></b></label>
+              <input type="text" placeholder="Existing Business" name="data[Existing Business]" required>
+
+              <label for="State"><b>State<span style="font-size:18px; color:#FF0000" >*</span></b></label>
+              <input type="text" placeholder="State" name="data[State]" required>
+
+              <label for="District"><b>City<span style="font-size:18px; color:#FF0000" >*</span></b></label>
+              <input type="text" placeholder="City" name="data[City]" required>
+		      
+			  <button type="submit" name="submit" >Submit information</button>
+            </form> 
+            </div>
+
+           <!-- <script>
+                const scriptURL =''
+
+                const form = document.forms.['google-sheet']
+                form.addEventListener('submit',e => {
+                    e.preventDefault()
+                    fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+                    .then(response => alert("Thanks for Contacting us..! We will Contact you within 24 hrs." ))
+                    .catch(error => console.error('Error!', error.message))
+
+                } )		-->	
+
+
+
+
+</body>
+</html>
