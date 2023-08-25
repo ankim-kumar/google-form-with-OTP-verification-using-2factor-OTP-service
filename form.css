@@ -24,7 +24,11 @@ width: 96vw;
 
 
 hr {
+<<<<<<< HEAD
   border: 1px solid #f1f1f4;
+=======
+  border: 1px solid #f1f1f2;
+>>>>>>> 2d11ed48408f34710d4b4e151495a0ed1546dc29
   margin-bottom: 25px;
 }
 
